@@ -1,8 +1,9 @@
 import random
 
 team_name = 'davila'
-strategy_name = 'davila strats'
-strategy_description = 'Play the next open spot.'
+strategy_name = 'Echo bunker strats'
+strategy_description = 'Looks to see if player has two spots in a row and goes for the win if they do. It also plays defensively if the opponent has two spots in a row. If neither are true, a random spot is played'
+
 
 def print_board(board):
   print(board[0][0]+'|'+board[0][1]+'|'+board[0][2])
