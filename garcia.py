@@ -1,7 +1,7 @@
 import random
 team_name = 'garcia'
-strategy_name = 'holy strategy'
-strategy_description = 'cross'
+strategy_name = 'Holy Strategy'
+strategy_description = 'Get a cross'
     
 def move(player, board, score):
   if board[1][1] == ' ':
