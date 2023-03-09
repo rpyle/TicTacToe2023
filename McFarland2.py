@@ -1,14 +1,8 @@
 team_name = 'McFarland'
 strategy_name = 'Best Stratagy'
 strategy_description = 'Play the next most strategic location.'
-'''
-def print_board(board):
-  print(board[0][0]+'|'+board[0][1]+'|'+board[0][2])
-  print('-+-+-')
-  print(board[1][0]+'|'+board[1][1]+'|'+board[1][2])
-  print('-+-+-')
-  print(board[2][0]+'|'+board[2][1]+'|'+board[2][2]+'\n')
-'''
+
+
 def move(player, board, score): #required
  
   #------------------------ resets stratagy values ---------------------------
@@ -300,7 +294,6 @@ def move(player, board, score): #required
          r = 2
          c = 1
 
-  #print_board(board)
-  #print (r,c)
+ 
     
   return r, c #required
